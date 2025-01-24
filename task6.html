@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/style7.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<html>
+
+<body>
+
+
+<div>
+  <form action="/action_page.php">
+    <h1>Get started absolutely free</h1>
+                <p>Free forever.No Credit card Needed.</p>
+
+
+    <input type="text" placeholder="FULLNAME">  
+                <input type="email" placeholder="EMAIL ADDRESS">
+                <input type="password" placeholder="PASSWORD">
+                <input type="tel" placeholder="+91-123-45-678">
+                <input type="date" placeholder="dd-mm-yyyy">
+                <br>
+
+                <input type="checkbox">
+  <label>By Clicking here you confirm that you agree with our terms & conditions</label>
+  <br>
+  <br>
+  <form id="myForm">
+
+  <input type="submit" value="CREATE MY ACCOUNT">
+</form>
+</form>
+  
+  <script>
+
+      
+        // Retrieve input values
+        const text = document.getElementById('FULLNAME').value;
+        const EMAILADDRESS = document.getElementById('EMAILADDRESS').value;
+        const PASSWORD = document.getElementById('PASSWORD').value;
+        const PHONENUMBER = document.getElementById('PHONENUMBER').value;
+        const DATEOFBIRTH = document.getElementById('DATEOFBIRTH').value;
+
+
+
+
+        // Create an object with the form data
+        const formData = {
+          FULLNAME:FULLNAME,
+          EMAILADDRESS:EMAILADDRESS,
+            PASSWORD : PASSWORD,
+            PHONENUMBER: PHONENUMBER,
+            DATEOFBIRTH :DATEOFBIRTH 
+
+
+        };
+
+        // Convert object to JSON format
+        const jsonData = JSON.stringify(formData);
+
+        // Log the JSON data to the console
+        console.log(jsonData,null);
+    
+</script>
+    
+     
+    
+    
+ 
+ 
+  
+                                
+                    
+                        
+   
+ 
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,119 @@
+body{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:4%;
+    margin-bottom:4%;
+    background-color:#d9ecf8;
+   }
+   p{
+    color:darkgray;
+   }
+   label{
+    color: darkgrey;
+   }
+input[type=text], select {
+    width: 100%;
+    padding: 25px 20px;
+    justify-content: center;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 lightgrey;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 25px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 lightgrey;
+  }
+  input[type=email], select {
+    width: 100%;
+    padding: 25px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 lightgrey;
+    
+  }
+  input[type=password], select {
+    width: 100%;
+    padding: 25px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 lightgrey;
+  }
+  input[type=tel], select {
+    width: 100%;
+    padding: 25px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 lightgrey;
+  }
+  input[type=date], select {
+    width: 100%;
+    padding: 25px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 lightgrey;
+  }
+  input[type=submit],select{
+     color:white;
+    justify-content:center;
+    width: 180px;
+    height:35px;
+text-align: center;
+    align-items: flex-start;
+    margin-right:50px;
+
+    font-size:13px;
+
+    font-weight:bold;
+    float:left;
+    border:1px solid rgb(13, 37, 156);
+    padding:5px;
+    border-radius:20px ;
+    background-color: rgb(0, 145, 255);
+    
+    
+
+
+  }
+    input:focus{
+      outline: 2px solid rgb(8, 164, 216); ;
+
+    }
+  
+ 
+  
+  div {
+    width:40%;
+    align-items: center;
+    border:1px solid white;
+            display:flex;
+    
+    border-radius: 5px;
+    background-color:#fafafc;
+    padding: 25px;
+        justify-content:center;
+        
+    
+  }
